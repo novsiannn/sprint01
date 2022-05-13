@@ -1,0 +1,8 @@
+form{
+    border: 2px solid gray;
+    width: 95%;
+        padding: 20px;
+}
+legend{
+    font-size: 20px;
+}

@@ -1,0 +1,108 @@
+div{
+    border: 1px solid red;
+    background-color: red;
+    width: 98%;
+    font-size: 33px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.sub-menu_list a:hover{
+    color: white;
+}
+.menu li{
+    list-style: none;
+    width: 200px;
+    text-align: center;
+    position: relative;
+}
+.menu_list{
+    display: flex;
+margin-left: 33%;
+}
+.menu_list>li{
+    background-color: #D5D0BE;
+    min-width: 100px;
+    text-align: center;
+    margin-right: 1px;
+    height: 35px;
+    margin-bottom: 20;
+
+}
+.sub-menu_list{
+    display: none;
+    position: absolute;
+    background-color: #D5D0BE;   
+    margin-top: 11px;
+    
+}
+.sub-menu_link{
+    display: inline-block;padding-bottom: 10px;
+}
+*{
+    padding: 0;
+}
+.menu_list>li:hover{
+    background-color: rgb(175, 3, 3);
+}
+.menu_list>li:hover .sub-menu_list{
+    display: block;
+}
+.sub-menu_list>li:hover{
+    background-color: red;
+    color: white;
+}
+ul li{
+    padding-top: 10px;
+}
+.sub-sub-menu_list{
+    right: 95%;
+    position: absolute;
+    top: -23%;
+    padding: 10px;
+    display: none;
+}
+.sub-sub-menu_link{
+    padding: 5px;
+    display: inline-block;
+}
+.sub-sub-menu_list>li{
+    background-color:#D5D0BE ;
+}
+.sub-menu_list>li:hover .sub-sub-menu_list{
+    display: block;
+
+}
+.sub-sub-menu_list>li:hover{
+    background-color: rgb(253, 43, 43);
+}
+.sub-sub-menu_list_right{
+    left: 95%;
+    position: absolute;
+    top: -23%;
+    padding: 10px;
+    display: none;
+}
+.sub-menu_list>li:hover .sub-sub-menu_list_right{
+    display: block;
+}
+.sub-sub-menu_list_right>li:hover{
+    background-color: rgb(253, 43, 43);
+}
+.sub-sub-menu_link_right{
+    padding: 5px;
+    display: inline-block;
+}
+.sub-sub-menu_list_right>li{
+    background-color:#D5D0BE ;
+}
+

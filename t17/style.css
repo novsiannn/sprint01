@@ -1,0 +1,21 @@
+
+h2{
+    text-align: center;}
+p::before{
+    content: '\00AB';
+}
+p::after{
+    content: '\00BB';
+}
+p{
+ display: inline-block;
+}
+input::-webkit-input-placeholder { color: blue; }
+
+
+.post-itm{
+    float: left;
+    margin-left: 30px;width: 200px;
+}
+
+

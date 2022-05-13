@@ -1,0 +1,18 @@
+.handphoto{
+    height: 300px;
+    width: auto;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.manphoto{
+    height: 100px;
+    width: auto;
+    margin: 10px;
+    
+}
+.man{
+    display: inline-block;
+}
+.handphoto:hover ~ .man:nth-child(odd)  {
+    opacity: 0;
+}

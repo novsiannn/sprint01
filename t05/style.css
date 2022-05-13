@@ -1,0 +1,74 @@
+.container{
+   
+    border: 1px solid white;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+img{
+    height: 182px;
+    width:auto;
+    margin-top: -41px;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;  
+    top: 0px;
+    right: 5px;
+    color:white;
+position: absolute;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9px;
+    color:rgba(255, 255, 255,0.5);
+    position: absolute;
+    top:12px ;
+    right: 5px;
+}
+.captain{
+    background: linear-gradient(#4568dc,#b06ab3);border: 1px solid #000000;
+    border-radius: 5px;
+    width: 270px;
+    height: 140px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 40px;
+    
+}
+.tony{
+    background: linear-gradient(#e52d27,#b31217);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 270px;
+    height: 140px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 20px;
+    
+}
+.blackwidow{
+    background: linear-gradient(#000,#61045f);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 270px;
+    height: 140px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 20px;
+    
+}
+.spider{
+    background: linear-gradient(#e52d27,#000);
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 270px;
+    height: 140px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 20px;  
+ }
+.spiderman{
+    margin-top: 0px;
+    margin-left: 10px;
+}

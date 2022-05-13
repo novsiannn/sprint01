@@ -1,0 +1,48 @@
+.first{
+    background-color:#D6923D;
+
+}
+.photo{
+border-radius: 50px;
+height: 150px;
+width: 150px;
+margin:10px;
+}
+
+.second{
+    background-color:#008001;
+}
+.third{
+    background-color: #005792;
+}
+.forth{
+    background-color: #FFFF05;
+}
+.fifth{
+    background-color: #C12A2E;
+
+}
+.sixth{
+    background-color: #8175B7;
+}
+.centrallink{
+    text-align: center;
+}
+.title{
+    background-color:black;
+    color:white;
+}
+
+table tbody td {
+    border:2px solid #ffffff;
+}
+
+tfoot{
+    border:2px solid #6E7F80;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    text-align: center;
+}

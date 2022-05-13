@@ -1,0 +1,44 @@
+div{
+    border: 0px solid black;
+    display: inline-block;
+    width: 80px;
+    height: 150px;
+    position: relative;
+    border-radius: 3px;
+}
+img{
+    padding: 15px;
+    padding-top: 50px;
+    position: absolute;
+}
+.data{
+    background-color:#0197B9;
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    border-radius: 1px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    padding-top: 2px;
+
+    }
+    .temp{
+        position: absolute;
+        font-size: 2em;
+        font-weight: 400;
+        padding-top: 110px;
+        text-align: center;
+        height: 40px;
+    }
+    .temp::after{
+content: "\00b0";
+
+    }
+    div:hover{
+        box-shadow: 0 0 0 3px rgba(0, 0,0,0.1);
+        cursor: pointer;
+    }
+
+
